@@ -4,36 +4,82 @@ A responsive React Accordion application that allows users to expand and collaps
 
 ## Features
 
+# Accordion App
+
+## Project Title
+
+Accordion App
+
+## Short Description
+
+A small, component-driven React application that displays expandable accordion items with support for single-item or multi-item selection modes.
+
+## Features
+
 - Expand and collapse accordion items
-- Single Selection Mode
-- Multi Selection Mode
-- Toggle between Single and Multi Selection modes
-- Responsive design
-- Reusable React components
+- Single selection mode (only one item open)
+- Multiple selection mode (several items open)
+- Toggle to switch between selection modes
+- Reusable components (Accordion, AccordionItem)
+- Responsive CSS styling
 
 ## Tech Stack
 
 - React
 - Vite
-- JavaScript
+- JavaScript (ES6+)
 - CSS
 
-## Getting Started
+## How to Run
 
-### Install Dependencies
+1. Install dependencies
 
 ```bash
 npm install
-Run the Development Server
+```
+
+2. Run the development server
+
+```bash
 npm run dev
+```
 
-Open the local URL shown in the terminal to view the application.
+3. Build for production
 
-Build for Production
+```bash
 npm run build
-Live Demo
+```
+
+Open the local URL shown by the dev server to view the app.
+
+## Live Demo + GitHub Repository
+
+- Live Demo:https://accordion-app-eight.vercel.app
+- GitHub Repository: https://github.com/tahirabatool218-uoe/AccordionApp
 
 
+## Project Structure
 
-GitHub Repository
+```text
+accordion-app/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Accordion.jsx
+│   │   ├── AccordionItem.jsx
+│   │   └── Accordion.css
+│   ├── data/
+│   │   └── accordionData.js
+│   ├── App.jsx
+│   └── main.jsx
+├── index.html
+├── package.json
+├── vite.config.js
+├── eslint.config.js
+├── README.md
+└── .gitignore
+```
 
+## Notes
+
+The app uses React `useState` to manage the active accordion item(s) and the multiple-selection toggle. The `Accordion` component renders the `AccordionItem` component for each item in the `accordionData` array. 
