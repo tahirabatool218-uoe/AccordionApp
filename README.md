@@ -1,67 +1,40 @@
 # Accordion App
 
-A responsive React Accordion application that allows users to expand and collapse items using Single Selection and Multi Selection modes.
+A simple and responsive React Accordion application that allows users to expand and collapse content using **Single Selection** and **Multiple Selection** modes.
 
-## Features
+## 🚀 Live Demo
 
-# Accordion App
+**Live Demo:** https://accordion-app-eight.vercel.app
 
-## Project Title
+**GitHub Repository:** https://github.com/tahirabatool218-uoe/AccordionApp
 
-Accordion App
+## ✨ Features
 
-## Short Description
+* Expand and collapse accordion items
+* Single Selection mode
 
-A small, component-driven React application that displays expandable accordion items with support for single-item or multi-item selection modes.
+  * Only one item can be open at a time
+* Multiple Selection mode
 
-## Features
+  * Multiple items can be open simultaneously
+* Toggle between Single and Multiple Selection modes
+* Reusable React components
+* Responsive design
+* Data-driven accordion items
+* State management using React `useState`
 
-- Expand and collapse accordion items
-- Single selection mode (only one item open)
-- Multiple selection mode (several items open)
-- Toggle to switch between selection modes
-- Reusable components (Accordion, AccordionItem)
-- Responsive CSS styling
+## 🛠️ Tech Stack
 
-## Tech Stack
+* React
+* Vite
+* JavaScript (ES6+)
+* CSS
+* React Hooks
 
-- React
-- Vite
-- JavaScript (ES6+)
-- CSS
-
-## How to Run
-
-1. Install dependencies
-
-```bash
-npm install
-```
-
-2. Run the development server
-
-```bash
-npm run dev
-```
-
-3. Build for production
-
-```bash
-npm run build
-```
-
-Open the local URL shown by the dev server to view the app.
-
-## Live Demo + GitHub Repository
-
-- Live Demo:https://accordion-app-eight.vercel.app
-- GitHub Repository: https://github.com/tahirabatool218-uoe/AccordionApp
-
-
-## Project Structure
+## 📁 Project Structure
 
 ```text
-accordion-app/
+AccordionApp/
 ├── public/
 ├── src/
 │   ├── components/
@@ -74,12 +47,95 @@ accordion-app/
 │   └── main.jsx
 ├── index.html
 ├── package.json
+├── package-lock.json
 ├── vite.config.js
 ├── eslint.config.js
-├── README.md
-└── .gitignore
+├── .gitignore
+└── README.md
 ```
 
-## Notes
+## ⚙️ Getting Started
 
-The app uses React `useState` to manage the active accordion item(s) and the multiple-selection toggle. The `Accordion` component renders the `AccordionItem` component for each item in the `accordionData` array. 
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/tahirabatool218-uoe/AccordionApp.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd AccordionApp
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL provided by Vite in your browser.
+
+## 🏗️ Build for Production
+
+To create a production-ready build:
+
+```bash
+npm run build
+```
+
+To preview the production build locally:
+
+```bash
+npm run preview
+```
+
+## 🧠 What I Practiced
+
+This project was built to practice core React concepts, including:
+
+* Functional Components
+* Component-based architecture
+* Props
+* React `useState`
+* Conditional rendering
+* Event handling
+* Rendering lists with `.map()`
+* Reusable components
+* Data-driven UI
+* Responsive CSS
+
+## 📌 Key React Concept
+
+The accordion state is managed using React's `useState` hook.
+
+The application supports two different behaviors:
+
+* **Single Selection:** Only one accordion item remains open.
+* **Multiple Selection:** Multiple accordion items can remain open at the same time.
+
+This project helped reinforce how React state can be used to control interactive UI components.
+
+## 📱 Responsive Design
+
+The application is designed to work across different screen sizes, including:
+
+* Desktop
+* Tablet
+* Mobile
+
+## 👩‍💻 Author
+
+**Tahira Batool**
+
+BSCS Student | React Developer
+
+## 📄 License
+
+This project is created for learning and practice purposes.
